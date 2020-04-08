@@ -4,7 +4,7 @@ channels:
 dependencies:
   # Required for full project functionality (dont remove)
   - pytest
-  # Examples (remove and add as needed)
+  # Other (remove and add as needed)
   - jupyter
   - jupyterlab
   - xarray
@@ -14,3 +14,5 @@ dependencies:
   - netcdf4
   - pandas
   - matplotlib
+  - iris
+  - cartopy
