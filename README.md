@@ -4,7 +4,7 @@ analysis_EEL_data
 [![codecov](https://codecov.io/gh/lhoupert/analysis_eel_data/branch/master/graph/badge.svg)](https://codecov.io/gh/lhoupert/analysis_eel_data)
 [![License:MIT](https://img.shields.io/badge/License-MIT-lightgray.svg?style=flt-square)](https://opensource.org/licenses/MIT)
 
-Repository to explore, aanalyse and visualise oceanographic dataset EEL
+Repository to explore, analyse and visualise oceanographic dataset EEL
 
 --------
 
