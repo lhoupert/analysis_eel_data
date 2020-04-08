@@ -7,3 +7,7 @@ dependencies:
   - numpy
   - pandas
   - matplotlib
+  - future
+  - flake8
+  - pytest-cov
+  - codecov
