@@ -1,8 +1,9 @@
 name: analysis_eel_data
 channels:
   - conda-forge
+  - defaults
 dependencies:
-  # Required for full project functionality (dont remove)
+   # Required for full project functionality (dont remove)
   - pytest
   # Other (remove and add as needed)
   - jupyter
@@ -10,9 +11,7 @@ dependencies:
   - xarray
   - numpy
   - scipy
-  - dask
   - netcdf4
   - pandas
   - matplotlib
   - iris
-  - cartopy
