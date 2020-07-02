@@ -13,5 +13,8 @@ dependencies:
   - scipy
   - netcdf4
   - pandas
+  - itertools
   - matplotlib
   - iris
+  - palettable
+  - seaborn
