@@ -24,7 +24,7 @@ This repository is a work in progress and should be updated regularly. This repo
 git clone https://github.com/lhoupert/analysis_eel_data.git
 ```
 
-- Create and activate the Conda environment *analysis\_eel\_data* containing the relevant libraries:
+- Create and activate the Conda environment *analysis\_eel\_data* containing the relevant libraries (the creation of the environment can take a few minutes)
 
 ```
 cd analysis_eel_data
