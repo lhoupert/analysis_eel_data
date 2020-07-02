@@ -6,6 +6,7 @@ readmefigs/
 
 # Unfinalised notebooks
 notebooks/workinprogress/
+notebooks/test/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
