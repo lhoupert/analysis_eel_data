@@ -48,7 +48,7 @@ jupyter-lab
 #### 1. Bathymetry map of the North Atlantic Ocean using *cartopy* and *matplotlib* axes functions: 
 The notebook [others/00\_Plot\_map\_forRTpaper.ipynb](https://github.com/lhoupert/analysis_eel_data/blob/master/notebooks/other/00_Plot_map_forRTpaper.ipynb) was used to generate the Figure1 of [Houpert et al., [in review]](https://www.essoar.org/doi/10.1002/essoar.10503226.1) *-Bathymetry of the North Atlantic Ocean and of the central Rockall Trough with the location of oceanographic data-*
 
-![Bathymetry of the North Atlantic as in Houpert et al., 2020](https://www.dropbox.com/s/pw11e62w3en09ji/fig1.png)
+![Bathymetry of the North Atlantic as in Houpert et al., 2020](https://uc87135040fc932c86bfe54876c0.dl.dropboxusercontent.com/cd/0/inline/A6yFtUnJ-zFXCo4aiBL3kTtds-p9i7F0hthlm5ub8w5yY9q2voduSihjpAhvQL7LAXXAATQRSwSUvuURBOOK484IcsxRw9jeKA9wHGWTsJjRCayd8bdnoUzqALyPmjcZW6w/file#)
 
 #### 2. ...
 
