@@ -1,11 +1,11 @@
 Analysis EEL data
 ==============================
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lhoupert/analysis_eel_data/master/notebooks)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lhoupert/analysis_eel_data/master?filepath=notebooks)
 [![Build Status](https://travis-ci.com/lhoupert/analysis_eel_data.svg?branch=master)](https://travis-ci.com/lhoupert/analysis_eel_data)
 [![codecov](https://codecov.io/gh/lhoupert/analysis_eel_data/branch/master/graph/badge.svg)](https://codecov.io/gh/lhoupert/analysis_eel_data)
 [![License:MIT](https://img.shields.io/badge/License-MIT-lightgray.svg?style=flt-square)](https://opensource.org/licenses/MIT)
 
-A repository associated with the [Extended Ellett Line (EEL)](https://projects.noc.ac.uk/ExtendedEllettLine/)  oceanographic dataset  It mostly contains [python scripts](https://github.com/lhoupert/analysis_eel_data/tree/master/notebooks)  used to analyse and visualise these oceanographic data.
+A repository associated with the [Extended Ellett Line (EEL)](https://projects.noc.ac.uk/ExtendedEllettLine/)  oceanographic dataset  It mostly contains [python scripts](https://mybinder.org/v2/gh/lhoupert/analysis_eel_data/master?filepath=notebooks)  used to analyse and visualise these oceanographic data.
 
 
 This repository is a work in progress and should be updated regularly. This repo can also be run on [binder](https://mybinder.org/v2/gh/lhoupert/analysis_eel_data/master/notebooks).
