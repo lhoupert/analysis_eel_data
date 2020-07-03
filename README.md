@@ -49,9 +49,9 @@ jupyter-lab
 ### 1. Maps
 
 #### 1.1 Bathymetry map of the North Atlantic Ocean using *cartopy* and *matplotlib* axes functions
-The notebook [01\_Plot\_map\_EEL\_data.ipynb](https://github.com/lhoupert/analysis_eel_data/blob/master/notebooks/01_Plot_map_EEL_data.ipynb) plot the bathymetry of the North Atlantic Ocean with two regional zoom and with the label of the hydrographic stations
+The notebook [01-lh-Plot-map-EEL-data.ipynb](https://github.com/lhoupert/analysis_eel_data/blob/master/notebooks/01_Plot_map_EEL_data.ipynb) plot the bathymetry of the North Atlantic Ocean with two regional zoom and with the label of the hydrographic stations
 
-![Bathymetry of the eastern North Atlantic with Extended Ellett Line section](https://uca0cd1a2dbea90e7cc2e17ff1f3.dl.dropboxusercontent.com/cd/0/inline/A6x41G18KkKDLypjYAM5RzDjLN7RRS4fpOqX7_wu6X31oEIeli6fC0tnx0w4ahgktao3rjF-ehxKzI-ZDAk-qz_ujaRBAiyQIuke9ZdiDUUKAbUFqAwsWdyZD2e7y42r1_k/file#)
+![Bathymetry of the eastern North Atlantic with Extended Ellett Line section](references/readme_figures/fig11.png)
 
 <br/>
 
@@ -64,11 +64,11 @@ The notebook [01\_Plot\_map\_EEL\_data.ipynb](https://github.com/lhoupert/analys
 ### 2. Data exploration and visualisation
 
 #### 2.1 Exploration of EEL dataset and contour plots of mean quantities
-The notebook [02\_Explore\_EEL\_meanfield.ipynb](https://github.com/lhoupert/analysis_eel_data/blob/master/notebooks/02_Explore_EEL_meanfield.ipynb) is used to explore the EEL dataset. It also generates summary figures of the mean and standard deviation of the velocity, teperature, salinity and density along the EEL section (see example below). 
+The notebook [02-lh-Explore-EEL-meanfield.ipynb.ipynb](https://github.com/lhoupert/analysis_eel_data/blob/master/notebooks/02_Explore_EEL_meanfield.ipynb) is used to explore the EEL dataset. It also generates summary figures of the mean and standard deviation of the velocity, teperature, salinity and density along the EEL section (see example below). 
 
 *Note: this notebook has been written at early stage in my transition from Matlab to Python and is mostly based on Python Dataframe. The use of [xarray](http://xarray.pydata.org/en/stable/) would have certainly shortened and optimised this code.*
 
-![Exemple of contour plot accross the EEL section](https://uc7aa98171c58ce3a72662dc2ad3.dl.dropboxusercontent.com/cd/0/inline/A6yBwOLWUQU30Tq2vuzKN5a7phHunpUD3brjtu8vps5v4u8SjR-htcWc_rGWXKGRFlDkifYw5aaubcOBZpWaY7sNLFnRISyr4bDjmjxYF8aahGTbFwFDs1ELi2kmFFG18bs/file#)
+![Exemple of contour plot accross the EEL section](references/readme_figures/fig22.png)
 
 <br/>
 
