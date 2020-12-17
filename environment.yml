@@ -6,6 +6,8 @@ dependencies:
    # Required for full project functionality (dont remove)
   - pytest
   # Other (remove and add as needed)
+  - nb_conda
+  - ipykernel
   - jupyter
   - jupyterlab
   - xarray
@@ -17,3 +19,8 @@ dependencies:
   - iris
   - palettable
   - seaborn
+  - gmt
+  - plotly
+  - pyviz::holoviz
+  - pyviz::hvplot
+  - bokeh
