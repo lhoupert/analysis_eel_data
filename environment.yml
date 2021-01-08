@@ -3,24 +3,26 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-   # Required for full project functionality (dont remove)
+  - iris
+  - numpy
+  - palettable
+  - jupyter
   - pytest
-  # Other (remove and add as needed)
+  - scipy
+  - xarray
+  - pandas
+  - netcdf4
+  - seaborn
+  - jupyterlab
+  - gmt
+  - matplotlib
   - nb_conda
   - ipykernel
-  - jupyter
-  - jupyterlab
-  - xarray
-  - numpy
-  - scipy
-  - netcdf4
-  - pandas
-  - matplotlib
-  - iris
-  - palettable
-  - seaborn
-  - gmt
   - plotly
-  - pyviz::holoviz
-  - pyviz::hvplot
+  - holoviews
   - bokeh
+  - hvplot
+  - panel
+  - voila
+  - scikit-image
+  - voila-gridstack
