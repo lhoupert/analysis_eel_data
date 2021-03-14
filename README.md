@@ -72,7 +72,12 @@ The notebook [02-lh-Explore-EEL-meanfield.ipynb.ipynb](https://nbviewer.jupyter.
 
 <br/>
 
-#### ...
+#### 2.2 Interactive display of contourf section
+
+The notebook [holoview/02-lh-holoview_2_gridded_section.ipynb](notebooks/holoview/02-lh-holoview_2_gridded_section.ipynb) shows how to use [HoloViews](https://holoviews.org) and
+[Panel](https://panel.holoviz.org) to display interactive section of the EEL data.
+
+![Exemple of interactive contour plot of the EEL section](references/readme_figures/fig33.png)
 
 --------
 
