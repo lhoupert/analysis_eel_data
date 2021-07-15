@@ -54,8 +54,18 @@ jupyter-lab
 
 4. To stop the docker you can just do `CTRL + C` in the terminal. 
 
-5. Once the container has been built you can start it with `docker-compose up` or `docker-compose up -d` and stop it with
-`docker-compose down`
+5. Once the container has been built you can start it with 
+    ```
+    docker-compose up
+    ```
+    or 
+    ```
+    docker-compose up -d
+    ``` 
+    and stop it with: 
+    ```
+    docker-compose down
+    ```
 
 
 
