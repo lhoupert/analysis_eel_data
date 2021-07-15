@@ -1,0 +1,14 @@
+# useful article: https://binal.pub/2018/10/data-science-with-docker-and-conda/
+version: "3.8"
+
+services:
+  jlab:
+    build: 
+      dockerfile: ./Dockerfile_jlab
+      context: ./      
+    container_name: analysis_eel_jlab
+    command:  bash -ic 'jupyter lab --no-browser --ip=0.0.0.0 --allow-root --NotebookApp.token='analysis_eel_data''
+    volumes:
+      - ./:/analysis_eel_data
+    ports:
+      - 8886:8888

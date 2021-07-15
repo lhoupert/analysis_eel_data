@@ -1,0 +1,27 @@
+FROM continuumio/miniconda3:latest
+
+# Updating packages
+RUN apt-get update -y \
+    && apt-get install -y --no-install-recommends \
+    git \
+    nano \
+    unzip \
+    gcc \
+    make \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install conda and analysis_eel_data environment
+RUN conda update -y conda
+
+COPY . /analysis_eel_data/
+RUN conda env create -f /analysis_eel_data/environment_docker.yml
+
+# Make RUN commands use the new environment:
+RUN echo "conda activate analysis_eel_data" >> ~/.bashrc
+
+ENV PATH /opt/conda/envs/analysis_eel_data/bin:$PATH
+
+WORKDIR /analysis_eel_data
+
+

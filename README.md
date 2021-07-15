@@ -41,6 +41,22 @@ jupyter-lab
 
 <br/>
 
+### To run it with docker
+
+1. Make sure you have [docker](https://docs.docker.com/get-docker/) installed.
+
+2. Open a terminal and from the root directory of the repository run: 
+    ```shell
+    docker-compose up --build
+    ```
+
+3. Open a web-browser and go to: http://127.0.0.1:8886 then enter the token `analysis_eel_data`.
+
+4. To stop the docker you can just do `CTRL + C` in the terminal. 
+
+5. Once the container has been built you can start it with `docker-compose up` or `docker-compose up -d` and stop it with
+`docker-compose down`
+
 
 
 ## List of current notebooks available (work in progress)
